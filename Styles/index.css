@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root{
+  --cor-primaria: #000000;
+  --cor-secundaria: #F6F6F6;
+  --cor-terciaria: #22DAFD;
+  --cor-hover: #464646;
+
+  --font-principal: 'Krona One', sans-serif;
+  --font-secundaria: 'Montserrat', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container-apresentacao{
+  padding: 5% 15¢;
+  margin: 10% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body{
+  
+  box-sizing: border-box;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria)
+}
+.cabecalho{
+  padding: 2% 0% 0% 15%;
+}
+.cabecalho_menu{
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho_menu_link{
+  font-family: var(--font-secundaria);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--cor-terciaria);
+  text-decoration: none;
+}
+strong{
+  color: var(--cor-terciaria);
+}
+.div_button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao--content{
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao_h1{
+  font-size: 36px;
+  font-family: var(--font-principal);
+}
+.apresentacao_p{
+font-size: 24px;
+font-family: var(--font-secundaria);
+}
+.button_link{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color:var(--cor-secundaria);
+  font: var(--font-secundaria);
+  font-weight: 600;
+  border:2px solid var(--cor-terciaria) ;
+}
+
+.titulo_button{
+  font-family: var(--font-principal);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.button_link > img{
+  height: 25px;
+}
+.button_link:hover
+{
+  background-color: var(--cor-hover);
+}
+
+.rodape{
+  color: var(--cor-primaria);
+  padding: 24px;
+  background-color: var(--cor-terciaria);
+  text-align: center;
+  font: var(--font-secundaria);
+  font-size: 24px;
+}
